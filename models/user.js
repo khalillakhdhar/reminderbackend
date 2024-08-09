@@ -1,4 +1,3 @@
-const { type } = require("express/lib/response")
 const mongoose = require("mongoose")
 
 const userSchema= new mongoose.Schema(
@@ -22,5 +21,5 @@ const userSchema= new mongoose.Schema(
 
     }
 )
-const Uer = mongoose.model("User",userSchema);
+const User = mongoose.model("User",userSchema);
 module.exports=User;
